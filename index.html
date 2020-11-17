@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS de la Nube CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+
+    <link rel="shortcut icon" href="map_78365.ico" type="image/x-icon">
+
+
+    
+    <title>Mi primera pagina</title>
+
+    <!--este kit es para colocar las fuentes en forma de imagen, se debe dejar en el final  -->
+    <script src="https://kit.fontawesome.com/eaf6669a79.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <!-- Aca utilizamos las diferentes clases definidas en las librerias de Bootstrap -->
+    <!-- Estas permiten modificar los estilos del Titulo -->
+    <!-- Internamente ya tienen predefinido lo que programabamos en CSS3 -->
+    <div class="container ">
+      <!-- Encabezado Logo + Redes Sociales -->
+      <header>
+        <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-md 12 col-lg 6">
+                <img src="Logo.png" class="img-fluid mx-auto d-block pt-4 pb-4" alt="Logotipo" width =180px>    
+            </div>
+            <div class="col-md 12 col-lg 6">
+              <div class="Sociales text-center ">
+                  <ul>
+                    <li >
+                      <i class="fa fa-facebook fa-2x face"aria-hidden="true">
+                      </i>
+                      <i class="fab fa-whatsapp fa-2x whats"aria-hidden="true"></i>
+                      <i class="fab fa-twitter fa-2x twit "aria-hidden="true"></i>
+                      <i class="fab fa-youtube fa-2x you"aria-hidden="true"></i>
+                    </li>
+                  </ul>
+              </div >
+            </div>
+      </div>
+    </header>
+    
+    <!-- Barra de Navegación -->
+    <h1 class="text-center LetraTitulo1"> <Strong>Objetos virtuales de información OVI </Strong> </h1>
+
+    <nav class="navbar navbar-expand-sm navbar-dark FondoNav">
+      
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item ">
+                    <a  class="nav-link" href="#ESTRUCTURA BASICA DE HTML"> Inicio <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conceptos</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownId">
+                      <a class="dropdown-item" href="IniciosHTML.html">Inicios HTML</a>
+                      <a class="dropdown-item" href="EstrucutraHTML.html">Estructura HTML</a>
+                  </div>
+              </li>
+                
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Recursos</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item" href="Etiquetas.html">Etiquetas HTML</a>
+                        <a class="dropdown-item" href="Atributos.html">Atributos HTML</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Autoevaluación</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownId">
+                      <a class="dropdown-item" href="Criterios.html">Criterios</a>
+                      <a class="dropdown-item" href="Nota.html">Nota</a>
+                  </div>
+              </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="Autor.html">Autor</a>
+                </li>
+                
+            </ul>
+            
+        </div>
+        
+    </nav>
+    <!-- Slider  -->
+    <div class="row ">
+      <div class="col ">
+          <div id="carouselId" class="carousel slide modificar "   data-ride="carousel">           
+            <div class="carousel-inner " role="listbox">
+              <div class="carousel-item active text-center col-sm 12 col-md 6 col-lg 4">
+                <img src="programacion.jpg" alt="Programación de Código" width=500px ligth=500px>
+                <h6 class="LetraReferencias">Olivo, F. (2018, 21 noviembre). lines of HTML codes. Unsplash. https://unsplash.com/photos/4hbJ-eymZ1o</h6>
+              </div>
+              <div class="carousel-item text-center col-sm 12 col-md 6 col-lg 4">
+                <img src="Programacion2.jpg" alt="Persona Prograxmando"width=500px ligth=500px>
+                <h6 class="LetraReferencias">Silva, N. (2020, 24 marzo). macbook pro beside white ceramic mug on brown wooden table. Unsplash. https://unsplash.com/photos/k-rKfqSm4L4</h6>
+
+              </div>
+              
+            </div>
+
+            <a class="carousel-control-prev col-sm 12 col-md 6 col-lg 4" href="#carouselId" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next col-sm 12 col-md 6 col-lg 4"href="#carouselId" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+
+          </div>
+       </div>
+     </div>  
+    <!-- Saludo de Bienvenida -->
+
+    </br>
+    <h1 class="LetraTitulo2"> <Strong>ESTRUCTURA BASICA DE HTML</Strong> </h1>
+    
+
+
+    <!-- Presnetacion de la pagina -->
+    
+  
+      
+     
+       <div class="row  img-rounder">
+
+           
+          <div class="col-sm 12 cold-md 12 col-lg 12 text-left">
+          </br>
+            <p class="LetraParrafos"><strong>Objetivo General</strong></br>
+            El objetivo de esta pagina es poder identificar los diferentes elemento</p>
+
+            <p class="LetraParrafos"><strong>Objetivos especificos</strong></br>
+              <ul>
+                 
+                  <li class="LetraParrafos">Identificar las diferentes etiquetas utilizadas en el lenguaje html</li>
+                  <li class="LetraParrafos" > Conocer los atributos presentes en el desarrollo del lenguaje</li>
+                  <li class="LetraParrafos"> Comprender los elementos que componen un documento html</li>
+        
+              </ul>
+              
+             </p>
+          </div>
+          
+            <div class="col-sm 6 col-md 6 col-lg 4 ">
+              <aside>
+                <a class="twitter-timeline" 
+                data-lang="es" 
+                data-width="420" 
+                data-height="450" 
+                data-theme="light" 
+                data-link-color="#E95F28" 
+                data-chrome="nofooter noborders noheader"
+                href="https://twitter.com/UniversidadUNAD">Tweets by cubemediaco</a> 
+                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </aside>
+    
+              </div>
+          </div>
+
+
+
+          <div class="col-sm 12 col-md 12 col-lg 12 bloque">
+            <h2 class="LetraTitulo2"> <strong>Videos e imagenes introductorias</strong> </h2 >
+    
+              <Li > <a href = " https://www.arkaitzgarro.com/xhtml/capitulo-3.html " > Atributos Documentación, Etiquetas y Elementos </a > </li >
+              </br >		
+          
+              <iframe  width = " 560 " height = " 315 " src = " https://www.youtube.com/embed/eXbN9fr4UfY " frameborder = " 0 " allow = " acelerómetro; reproducción automática; medios cifrados; giroscopio; entrada de imagen -imagen " allowfullscreen class="text-center"> </iframe >
+          
+              <p > <p img  src = " etiquetas.png " > </p >
+          </div>
+
+        </br>
+        
+
+       
+
+	<h2 > Presentación y contenido del tema </h2 >
+
+    
+
+    <!-- Lugares en Bottom -->
+
+     <!--En Bootstrap Las columnas se pueden definir dependiendo del Tamaño de la pantalla  -->
+     <div class="col-sm 12 cold-md 12 col-lg 12 text-left">
+     </div>
+     <!-- Cards  -->
+      <div  class="row  img-rounder">
+          <div class="col-sm 12 col-md 6 col-lg 4">
+            <h3>Etiquetas</h3>
+            <img src="Etiquetas.jpg" alt="Etiquetas en HTML" width=300px ligth=300px>
+            <p>Son la estructura básica del HTML. Estas etiquetas o tags se componen y 
+              contienen otras propiedades, como son los atributos y el contenido. HTML 
+              define un total de 91 etiquetas, de las cuales 10 se consideran obsoletas.
+               Sin embargo, una etiqueta por sí sola a veces no contiene la información 
+               suficiente para estar completamente definida. Para ello contamos con los atributos:
+                pares nombre-valor separados por "=" y escritos en la etiqueta inicial de un elemento después 
+                del nombre del elemento. El valor puede estar encerrado entre "comillas dobles" o 'simples'.</p>
+            <a href="http://127.0.0.1:5500/index.html#aqui">ver mas</a>
+            
+
+ 
+          </div>
+          <div class="col-sm 12 col-md 6 col-lg 4">
+            <h3>Atributos</h3>
+            <img src="atributos.jpg" alt="Atributos en html" width=300px ligth=300px>
+            <p > Aunque cada una de las etiquetas HTML define sus propios atributos,
+               encontramos algunos comunes a muchas o casi todas las etiquetas, que se 
+               dividen en cuatro grupos según su función: </p >
+
+              <li > Atributos básicos </li >
+              <li > Atributos de internacionalización </li >
+              <li > Atributos de eventos </li >
+              <li > Atributos de foco </li > 
+              <a href="a">ver mas</a>
+
+          </div>
+          <div class="col-sm 12 col-md 12 col-lg 4">
+            <h3>Elementos</h3>
+            <img src="Elemento.jpg" alt="Elementos en html" width=300px ligth=300px>
+            <p > Además de etiquetas y atributos, HTML define el término elemento 
+              para referirse a las partes que componen los documentos HTML. El lenguaje HTML clasifica a todos los elementos en dos grupos: elementos en línea o elementos en línea y elementos en bloque o elementos de bloque.
+              La diferencia entre ambos viene dada por el modelo de contenido, 
+              por el formato y la dirección. La principal diferencia entre los dos 
+              tipos de elementos es la forma en la que ocupan el espacio disponible 
+              en la página: los elementos en bloque siempre comienzan en una nueva línea 
+              y ocupan todo el espacio disponible hasta el final de la línea, mientras que
+               los elementos en línea sólo ocupan el espacio necesario para mostrar sus
+                contenidos
+              </p >
+              <a href="a">ver mas</a>
+          </div>
+
+      </div>
+      <footer class=" piepagina FondoNav text-center d-flex-sm justify-content-between">
+        <div class="Contacto ">
+         
+
+        </div>
+        <div class="textofooter">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+             Praesentium, suscipit. Minima ipsa expedita nemo, cupiditate, 
+             recusandae voluptas qui aperiam, facilis rerum molestias voluptatem 
+             ut veniam iusto quibusdam aspernatur placeat perspiciatis.</p>
+       
+
+        </div>
+      <table class=""></table>
+
+      </footer>
+    </div>
+    
+
+   <!-- Barra de Progreso   -->
+   <div class="progress">
+     <div class="progress-bar bg-primary" role="progressbar" style="width: 25%;"
+        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Description</div>
+    </div>
+
+
+    <!-- Se colocan mis scripts -->
+
+    <!-- primero se coloca la libreria jquery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- Los pooper los cuales me crean ventanas emergentes -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <!-- Los bootstrap de JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
